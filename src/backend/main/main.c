@@ -58,6 +58,8 @@ static void check_root(const char *progname);
 int
 main(int argc, char *argv[])
 {
+	printf("===== HPDIC MOD =====\n\n");
+
 	bool		do_check_root = true;
 
 	/*

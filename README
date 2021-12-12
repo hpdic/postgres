@@ -1,3 +1,20 @@
+HPDIC MOD
+=========
+
+. PostgreSQL is written in C, so we need to install the compiler first
+	
+	$ sudo apt install gcc g++
+	
+. We'll need some other dependencies
+
+	$ sudo apt install libreadline-dev zlib1g-dev make flex bison
+	
+. Now let's compile it
+
+	$ ./configure
+	$ ./make
+	$ ./make install
+
 PostgreSQL Database Management System
 =====================================
 

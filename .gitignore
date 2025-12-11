@@ -1,3 +1,6 @@
+# HPDIC
+build
+
 # Global excludes across all subdirectories
 *.o
 *.obj
